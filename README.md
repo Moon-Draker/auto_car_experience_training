@@ -29,7 +29,7 @@ cd DDPG-Keras-Torcs
 cp *.* ~/gym_torcs
 cd ~/gym_torcs
 python pre_train.py
-python ddpg.py 
+python ddpg_tune.py 
 ```
 
 (keep the flag **train_indicator**=0 in ddpg.py if you want to use our method)
