@@ -40,7 +40,8 @@ python ddpg.py
 - It's important to run this project with fixed version of dependencies or closest. Please don't use a new version
 - For the gym_torcs installation. Please enter https://github.com/ugo-nama-kun/gym_torcs and follow each step carefully. Someone may have error when "make". If so, swtich line 64 in gym_torcs/vtorcs-RL-color/src/modules/simu/simuv2/simu.cpp to 
 
-```if (isnan((float)(car->ctrl->gear)) || isinf(((float)(car->ctrl->gear)))) car->ctrl->gear = 0;```
+    ```if (isnan((float)(car->ctrl->gear)) || isinf(((float)(car->ctrl->gear)))) car->ctrl->gear = 0;```
 - "torcs" in terminal to make sure your simulator could work.
 - If it's still to slow to train. You could also change a simple map. From some issues in the original project, it may never converge if the map is too complex or your pc is not powerful
-- Welcome to tell me your question or your improvment
+- Remember to delete the trained model (the file ended with .jason and .h5) if you want to train a new model. If not, it will be trained quicker in the beginning. However, after several times, it may overfit.
+- Welcome to tell me your question or your improvment :)
