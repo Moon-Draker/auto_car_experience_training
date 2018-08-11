@@ -3,7 +3,7 @@ This is for Reinforcement Learning course project. Based on "Using Keras and Dee
 At the original version, the training time is longer and not stable. We made some changes that adding experience training (learning from drive example) before RL process.
 
 see the demo https://youtu.be/W5ujqGAvVKo
-
+From begin to stable and finally finish the round
 
 --------------
 ## Using Keras and Deep Deterministic Policy Gradient to play TORCS
